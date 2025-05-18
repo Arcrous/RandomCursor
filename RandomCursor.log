@@ -1,0 +1,608 @@
+=== RandomCursor Log Started 2025-05-18 23:27:57 ===
+2025-05-18 23:27:57 - Application initializing...
+2025-05-18 23:27:57 - Config: Initializing configuration
+2025-05-18 23:27:57 - RegistryHelper: Initialized
+2025-05-18 23:27:57 - Debug: Scanning for cursor schemes
+2025-05-18 23:27:57 - Debug: Registry scan error: (2) The system cannot find the file specified.
+2025-05-18 23:27:57 - Debug: Found cursor folder: Angelina
+2025-05-18 23:27:57 - Debug: Added folder scheme: Angelina with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Camellya
+2025-05-18 23:27:57 - Debug: Added folder scheme: Camellya with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Carlotta
+2025-05-18 23:27:57 - Debug: Added folder scheme: Carlotta with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Dusk
+2025-05-18 23:27:57 - Debug: Added folder scheme: Dusk with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Elysia
+2025-05-18 23:27:57 - Debug: Added folder scheme: Elysia with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Firefly
+2025-05-18 23:27:57 - Debug: Added folder scheme: Firefly with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Fu Xuan
+2025-05-18 23:27:57 - Debug: Added folder scheme: Fu Xuan with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Furina
+2025-05-18 23:27:57 - Debug: Added folder scheme: Furina with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Hakurei Reimu
+2025-05-18 23:27:57 - Debug: Added folder scheme: Hakurei Reimu with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Hatsune Miku
+2025-05-18 23:27:57 - Debug: Added folder scheme: Hatsune Miku with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Hoshimi Miyabi
+2025-05-18 23:27:57 - Debug: Added folder scheme: Hoshimi Miyabi with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Kafka
+2025-05-18 23:27:57 - Debug: Added folder scheme: Kafka with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Kasane Teto
+2025-05-18 23:27:57 - Debug: Added folder scheme: Kasane Teto with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Lingsha
+2025-05-18 23:27:57 - Debug: Added folder scheme: Lingsha with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Lotus
+2025-05-18 23:27:57 - Debug: Added folder scheme: Lotus with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Luna Vow
+2025-05-18 23:27:57 - Debug: Added folder scheme: Luna Vow with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Mita
+2025-05-18 23:27:57 - Debug: Added folder scheme: Mita with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Narmaya
+2025-05-18 23:27:57 - Debug: Added folder scheme: Narmaya with 17 valid cursors
+2025-05-18 23:27:57 - Debug: Found cursor folder: Qingyi
+2025-05-18 23:27:58 - Debug: Added folder scheme: Qingyi with 17 valid cursors
+2025-05-18 23:27:58 - Debug: Found cursor folder: Robin
+2025-05-18 23:27:58 - Debug: Added folder scheme: Robin with 17 valid cursors
+2025-05-18 23:27:58 - Debug: Found cursor folder: Shorekeeper
+2025-05-18 23:27:58 - Debug: Added folder scheme: Shorekeeper with 17 valid cursors
+2025-05-18 23:27:58 - Debug: Found cursor folder: Silver Wolf
+2025-05-18 23:27:58 - Debug: Added folder scheme: Silver Wolf with 17 valid cursors
+2025-05-18 23:27:58 - Debug: Found cursor folder: Sparkle
+2025-05-18 23:27:58 - Debug: Added folder scheme: Sparkle with 17 valid cursors
+2025-05-18 23:27:58 - Debug: Found cursor folder: Sunaookami Shiroko
+2025-05-18 23:27:58 - Debug: Added folder scheme: Sunaookami Shiroko with 17 valid cursors
+2025-05-18 23:27:58 - Debug: Found cursor folder: Takanashi Hoshino
+2025-05-18 23:27:58 - Debug: Added folder scheme: Takanashi Hoshino with 17 valid cursors
+2025-05-18 23:27:58 - Debug: Found cursor folder: Tsukiyuki Miyako
+2025-05-18 23:27:58 - Debug: Added folder scheme: Tsukiyuki Miyako with 17 valid cursors
+2025-05-18 23:27:58 - Debug: Total schemes found: 26
+2025-05-18 23:27:58 - RegistryHelper: Retrieved 17 cursor settings from registry
+2025-05-18 23:27:58 - GDI+ initialized with token: 165805140
+2025-05-18 23:27:58 - HotkeyManager: Initializing
+2025-05-18 23:27:58 - Application started. Found 26 cursor schemes.
+2025-05-18 23:27:58 - Timer started - Interval: 300 seconds
+2025-05-18 23:27:58 - HotkeyManager: Unregistered all hotkeys
+2025-05-18 23:27:58 - HotkeyManager: Registered hotkey ^+c as ChangeCursor
+2025-05-18 23:27:58 - HotkeyManager: Registered hotkey ^+p as PauseResume
+2025-05-18 23:27:58 - HotkeyManager: Registered hotkey ^+s as ShowSettings
+2025-05-18 23:27:58 - HotkeyManager: Registered 3 hotkeys
+2025-05-18 23:28:00 - Window state monitoring initialized
+=== RandomCursor Log Started 2025-05-18 23:28:03 ===
+2025-05-18 23:28:03 - Application initializing...
+2025-05-18 23:28:03 - Config: Initializing configuration
+2025-05-18 23:28:03 - RegistryHelper: Initialized
+2025-05-18 23:28:03 - Debug: Scanning for cursor schemes
+2025-05-18 23:28:03 - Debug: Registry scan error: (2) The system cannot find the file specified.
+2025-05-18 23:28:03 - Debug: Found cursor folder: Angelina
+2025-05-18 23:28:03 - Debug: Added folder scheme: Angelina with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Camellya
+2025-05-18 23:28:03 - Debug: Added folder scheme: Camellya with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Carlotta
+2025-05-18 23:28:03 - Debug: Added folder scheme: Carlotta with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Dusk
+2025-05-18 23:28:03 - Debug: Added folder scheme: Dusk with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Elysia
+2025-05-18 23:28:03 - Debug: Added folder scheme: Elysia with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Firefly
+2025-05-18 23:28:03 - Debug: Added folder scheme: Firefly with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Fu Xuan
+2025-05-18 23:28:03 - Debug: Added folder scheme: Fu Xuan with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Furina
+2025-05-18 23:28:03 - Debug: Added folder scheme: Furina with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Hakurei Reimu
+2025-05-18 23:28:03 - Debug: Added folder scheme: Hakurei Reimu with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Hatsune Miku
+2025-05-18 23:28:03 - Debug: Added folder scheme: Hatsune Miku with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Hoshimi Miyabi
+2025-05-18 23:28:03 - Debug: Added folder scheme: Hoshimi Miyabi with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Kafka
+2025-05-18 23:28:03 - Debug: Added folder scheme: Kafka with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Kasane Teto
+2025-05-18 23:28:03 - Debug: Added folder scheme: Kasane Teto with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Lingsha
+2025-05-18 23:28:03 - Debug: Added folder scheme: Lingsha with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Lotus
+2025-05-18 23:28:03 - Debug: Added folder scheme: Lotus with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Luna Vow
+2025-05-18 23:28:03 - Debug: Added folder scheme: Luna Vow with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Mita
+2025-05-18 23:28:03 - Debug: Added folder scheme: Mita with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Narmaya
+2025-05-18 23:28:03 - Debug: Added folder scheme: Narmaya with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Qingyi
+2025-05-18 23:28:03 - Debug: Added folder scheme: Qingyi with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Robin
+2025-05-18 23:28:03 - Debug: Added folder scheme: Robin with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Shorekeeper
+2025-05-18 23:28:03 - Debug: Added folder scheme: Shorekeeper with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Silver Wolf
+2025-05-18 23:28:03 - Debug: Added folder scheme: Silver Wolf with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Sparkle
+2025-05-18 23:28:03 - Debug: Added folder scheme: Sparkle with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Sunaookami Shiroko
+2025-05-18 23:28:03 - Debug: Added folder scheme: Sunaookami Shiroko with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Takanashi Hoshino
+2025-05-18 23:28:03 - Debug: Added folder scheme: Takanashi Hoshino with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Found cursor folder: Tsukiyuki Miyako
+2025-05-18 23:28:03 - Debug: Added folder scheme: Tsukiyuki Miyako with 17 valid cursors
+2025-05-18 23:28:03 - Debug: Total schemes found: 26
+2025-05-18 23:28:03 - RegistryHelper: Retrieved 17 cursor settings from registry
+2025-05-18 23:28:03 - GDI+ initialized with token: 165810687
+2025-05-18 23:28:03 - HotkeyManager: Initializing
+2025-05-18 23:28:03 - Application started. Found 26 cursor schemes.
+2025-05-18 23:28:03 - Timer started - Interval: 300 seconds
+2025-05-18 23:28:03 - HotkeyManager: Unregistered all hotkeys
+2025-05-18 23:28:03 - HotkeyManager: Registered hotkey ^+c as ChangeCursor
+2025-05-18 23:28:03 - HotkeyManager: Registered hotkey ^+p as PauseResume
+2025-05-18 23:28:03 - HotkeyManager: Registered hotkey ^+s as ShowSettings
+2025-05-18 23:28:03 - HotkeyManager: Registered 3 hotkeys
+2025-05-18 23:28:06 - Window state monitoring initialized
+2025-05-18 23:28:08 - Debug: Starting cursor change. Current scheme: Camellya
+2025-05-18 23:28:08 - Debug: Added to available: Angelina
+2025-05-18 23:28:08 - Debug: Added to available: Carlotta
+2025-05-18 23:28:08 - Debug: Added to available: Dusk
+2025-05-18 23:28:08 - Debug: Added to available: Elysia
+2025-05-18 23:28:08 - Debug: Added to available: Firefly
+2025-05-18 23:28:08 - Debug: Added to available: Fu Xuan
+2025-05-18 23:28:08 - Debug: Added to available: Furina
+2025-05-18 23:28:08 - Debug: Added to available: Hakurei Reimu
+2025-05-18 23:28:08 - Debug: Added to available: Hatsune Miku
+2025-05-18 23:28:08 - Debug: Added to available: Hoshimi Miyabi
+2025-05-18 23:28:08 - Debug: Added to available: Kafka
+2025-05-18 23:28:08 - Debug: Added to available: Kasane Teto
+2025-05-18 23:28:08 - Debug: Added to available: Lingsha
+2025-05-18 23:28:08 - Debug: Added to available: Lotus
+2025-05-18 23:28:08 - Debug: Added to available: Luna Vow
+2025-05-18 23:28:08 - Debug: Added to available: Mita
+2025-05-18 23:28:08 - Debug: Added to available: Narmaya
+2025-05-18 23:28:08 - Debug: Added to available: Qingyi
+2025-05-18 23:28:08 - Debug: Added to available: Robin
+2025-05-18 23:28:08 - Debug: Added to available: Shorekeeper
+2025-05-18 23:28:08 - Debug: Added to available: Silver Wolf
+2025-05-18 23:28:08 - Debug: Added to available: Sparkle
+2025-05-18 23:28:08 - Debug: Added to available: Sunaookami Shiroko
+2025-05-18 23:28:08 - Debug: Added to available: Takanashi Hoshino
+2025-05-18 23:28:08 - Debug: Added to available: Tsukiyuki Miyako
+2025-05-18 23:28:08 - Debug: Selected scheme: Fu Xuan
+2025-05-18 23:28:08 - RegistryHelper: Beginning batch registry update
+2025-05-18 23:28:08 - RegistryHelper: Registry key opened successfully
+2025-05-18 23:28:08 - RegistryHelper: Registry key closed, 17 values written
+2025-05-18 23:28:08 - RegistryHelper: Set scheme name to Fu Xuan
+2025-05-18 23:28:08 - RegistryHelper: SystemParametersInfo result: 0
+2025-05-18 23:28:08 - Changed cursor scheme to: Fu Xuan
+2025-05-18 23:28:09 - Debug: Starting cursor change. Current scheme: Fu Xuan
+2025-05-18 23:28:09 - Debug: Added to available: Angelina
+2025-05-18 23:28:09 - Debug: Added to available: Camellya
+2025-05-18 23:28:09 - Debug: Added to available: Carlotta
+2025-05-18 23:28:09 - Debug: Added to available: Dusk
+2025-05-18 23:28:09 - Debug: Added to available: Elysia
+2025-05-18 23:28:09 - Debug: Added to available: Firefly
+2025-05-18 23:28:09 - Debug: Added to available: Furina
+2025-05-18 23:28:09 - Debug: Added to available: Hakurei Reimu
+2025-05-18 23:28:09 - Debug: Added to available: Hatsune Miku
+2025-05-18 23:28:09 - Debug: Added to available: Hoshimi Miyabi
+2025-05-18 23:28:09 - Debug: Added to available: Kafka
+2025-05-18 23:28:09 - Debug: Added to available: Kasane Teto
+2025-05-18 23:28:09 - Debug: Added to available: Lingsha
+2025-05-18 23:28:09 - Debug: Added to available: Lotus
+2025-05-18 23:28:09 - Debug: Added to available: Luna Vow
+2025-05-18 23:28:09 - Debug: Added to available: Mita
+2025-05-18 23:28:09 - Debug: Added to available: Narmaya
+2025-05-18 23:28:09 - Debug: Added to available: Qingyi
+2025-05-18 23:28:09 - Debug: Added to available: Robin
+2025-05-18 23:28:09 - Debug: Added to available: Shorekeeper
+2025-05-18 23:28:09 - Debug: Added to available: Silver Wolf
+2025-05-18 23:28:09 - Debug: Added to available: Sparkle
+2025-05-18 23:28:09 - Debug: Added to available: Sunaookami Shiroko
+2025-05-18 23:28:09 - Debug: Added to available: Takanashi Hoshino
+2025-05-18 23:28:09 - Debug: Added to available: Tsukiyuki Miyako
+2025-05-18 23:28:09 - Debug: Selected scheme: Shorekeeper
+2025-05-18 23:28:09 - RegistryHelper: Beginning batch registry update
+2025-05-18 23:28:09 - RegistryHelper: Registry key opened successfully
+2025-05-18 23:28:09 - RegistryHelper: Registry key closed, 17 values written
+2025-05-18 23:28:09 - RegistryHelper: Set scheme name to Shorekeeper
+2025-05-18 23:28:09 - RegistryHelper: SystemParametersInfo result: 0
+2025-05-18 23:28:09 - Changed cursor scheme to: Shorekeeper
+2025-05-18 23:28:10 - Debug: Starting cursor change. Current scheme: Shorekeeper
+2025-05-18 23:28:10 - Debug: Added to available: Angelina
+2025-05-18 23:28:10 - Debug: Added to available: Camellya
+2025-05-18 23:28:10 - Debug: Added to available: Carlotta
+2025-05-18 23:28:10 - Debug: Added to available: Dusk
+2025-05-18 23:28:10 - Debug: Added to available: Elysia
+2025-05-18 23:28:10 - Debug: Added to available: Firefly
+2025-05-18 23:28:10 - Debug: Added to available: Fu Xuan
+2025-05-18 23:28:10 - Debug: Added to available: Furina
+2025-05-18 23:28:10 - Debug: Added to available: Hakurei Reimu
+2025-05-18 23:28:10 - Debug: Added to available: Hatsune Miku
+2025-05-18 23:28:10 - Debug: Added to available: Hoshimi Miyabi
+2025-05-18 23:28:10 - Debug: Added to available: Kafka
+2025-05-18 23:28:10 - Debug: Added to available: Kasane Teto
+2025-05-18 23:28:10 - Debug: Added to available: Lingsha
+2025-05-18 23:28:10 - Debug: Added to available: Lotus
+2025-05-18 23:28:10 - Debug: Added to available: Luna Vow
+2025-05-18 23:28:10 - Debug: Added to available: Mita
+2025-05-18 23:28:10 - Debug: Added to available: Narmaya
+2025-05-18 23:28:10 - Debug: Added to available: Qingyi
+2025-05-18 23:28:10 - Debug: Added to available: Robin
+2025-05-18 23:28:10 - Debug: Added to available: Silver Wolf
+2025-05-18 23:28:10 - Debug: Added to available: Sparkle
+2025-05-18 23:28:10 - Debug: Added to available: Sunaookami Shiroko
+2025-05-18 23:28:10 - Debug: Added to available: Takanashi Hoshino
+2025-05-18 23:28:10 - Debug: Added to available: Tsukiyuki Miyako
+2025-05-18 23:28:10 - Debug: Selected scheme: Camellya
+2025-05-18 23:28:10 - RegistryHelper: Beginning batch registry update
+2025-05-18 23:28:10 - RegistryHelper: Registry key opened successfully
+2025-05-18 23:28:10 - RegistryHelper: Registry key closed, 17 values written
+2025-05-18 23:28:10 - RegistryHelper: Set scheme name to Camellya
+2025-05-18 23:28:10 - RegistryHelper: SystemParametersInfo result: 0
+2025-05-18 23:28:10 - Changed cursor scheme to: Camellya
+2025-05-18 23:28:10 - Debug: Starting cursor change. Current scheme: Camellya
+2025-05-18 23:28:10 - Debug: Added to available: Angelina
+2025-05-18 23:28:10 - Debug: Added to available: Carlotta
+2025-05-18 23:28:10 - Debug: Added to available: Dusk
+2025-05-18 23:28:10 - Debug: Added to available: Elysia
+2025-05-18 23:28:10 - Debug: Added to available: Firefly
+2025-05-18 23:28:10 - Debug: Added to available: Fu Xuan
+2025-05-18 23:28:10 - Debug: Added to available: Furina
+2025-05-18 23:28:10 - Debug: Added to available: Hakurei Reimu
+2025-05-18 23:28:10 - Debug: Added to available: Hatsune Miku
+2025-05-18 23:28:10 - Debug: Added to available: Hoshimi Miyabi
+2025-05-18 23:28:10 - Debug: Added to available: Kafka
+2025-05-18 23:28:10 - Debug: Added to available: Kasane Teto
+2025-05-18 23:28:10 - Debug: Added to available: Lingsha
+2025-05-18 23:28:10 - Debug: Added to available: Lotus
+2025-05-18 23:28:10 - Debug: Added to available: Luna Vow
+2025-05-18 23:28:10 - Debug: Added to available: Mita
+2025-05-18 23:28:10 - Debug: Added to available: Narmaya
+2025-05-18 23:28:10 - Debug: Added to available: Qingyi
+2025-05-18 23:28:10 - Debug: Added to available: Robin
+2025-05-18 23:28:10 - Debug: Added to available: Shorekeeper
+2025-05-18 23:28:10 - Debug: Added to available: Silver Wolf
+2025-05-18 23:28:10 - Debug: Added to available: Sparkle
+2025-05-18 23:28:10 - Debug: Added to available: Sunaookami Shiroko
+2025-05-18 23:28:10 - Debug: Added to available: Takanashi Hoshino
+2025-05-18 23:28:10 - Debug: Added to available: Tsukiyuki Miyako
+2025-05-18 23:28:10 - Debug: Selected scheme: Shorekeeper
+2025-05-18 23:28:10 - RegistryHelper: Beginning batch registry update
+2025-05-18 23:28:10 - RegistryHelper: Registry key opened successfully
+2025-05-18 23:28:10 - RegistryHelper: Registry key closed, 17 values written
+2025-05-18 23:28:10 - RegistryHelper: Set scheme name to Shorekeeper
+2025-05-18 23:28:10 - RegistryHelper: SystemParametersInfo result: 0
+2025-05-18 23:28:10 - Changed cursor scheme to: Shorekeeper
+2025-05-18 23:28:11 - Debug: Starting cursor change. Current scheme: Shorekeeper
+2025-05-18 23:28:11 - Debug: Added to available: Angelina
+2025-05-18 23:28:11 - Debug: Added to available: Camellya
+2025-05-18 23:28:11 - Debug: Added to available: Carlotta
+2025-05-18 23:28:11 - Debug: Added to available: Dusk
+2025-05-18 23:28:11 - Debug: Added to available: Elysia
+2025-05-18 23:28:11 - Debug: Added to available: Firefly
+2025-05-18 23:28:11 - Debug: Added to available: Fu Xuan
+2025-05-18 23:28:11 - Debug: Added to available: Furina
+2025-05-18 23:28:11 - Debug: Added to available: Hakurei Reimu
+2025-05-18 23:28:11 - Debug: Added to available: Hatsune Miku
+2025-05-18 23:28:11 - Debug: Added to available: Hoshimi Miyabi
+2025-05-18 23:28:11 - Debug: Added to available: Kafka
+2025-05-18 23:28:11 - Debug: Added to available: Kasane Teto
+2025-05-18 23:28:11 - Debug: Added to available: Lingsha
+2025-05-18 23:28:11 - Debug: Added to available: Lotus
+2025-05-18 23:28:11 - Debug: Added to available: Luna Vow
+2025-05-18 23:28:11 - Debug: Added to available: Mita
+2025-05-18 23:28:11 - Debug: Added to available: Narmaya
+2025-05-18 23:28:11 - Debug: Added to available: Qingyi
+2025-05-18 23:28:11 - Debug: Added to available: Robin
+2025-05-18 23:28:11 - Debug: Added to available: Silver Wolf
+2025-05-18 23:28:11 - Debug: Added to available: Sparkle
+2025-05-18 23:28:11 - Debug: Added to available: Sunaookami Shiroko
+2025-05-18 23:28:11 - Debug: Added to available: Takanashi Hoshino
+2025-05-18 23:28:11 - Debug: Added to available: Tsukiyuki Miyako
+2025-05-18 23:28:11 - Debug: Selected scheme: Sunaookami Shiroko
+2025-05-18 23:28:11 - RegistryHelper: Beginning batch registry update
+2025-05-18 23:28:11 - RegistryHelper: Registry key opened successfully
+2025-05-18 23:28:11 - RegistryHelper: Registry key closed, 17 values written
+2025-05-18 23:28:11 - RegistryHelper: Set scheme name to Sunaookami Shiroko
+2025-05-18 23:28:11 - RegistryHelper: SystemParametersInfo result: 0
+2025-05-18 23:28:11 - Changed cursor scheme to: Sunaookami Shiroko
+2025-05-18 23:28:11 - Debug: Starting cursor change. Current scheme: Sunaookami Shiroko
+2025-05-18 23:28:11 - Debug: Added to available: Angelina
+2025-05-18 23:28:11 - Debug: Added to available: Camellya
+2025-05-18 23:28:11 - Debug: Added to available: Carlotta
+2025-05-18 23:28:11 - Debug: Added to available: Dusk
+2025-05-18 23:28:11 - Debug: Added to available: Elysia
+2025-05-18 23:28:11 - Debug: Added to available: Firefly
+2025-05-18 23:28:11 - Debug: Added to available: Fu Xuan
+2025-05-18 23:28:11 - Debug: Added to available: Furina
+2025-05-18 23:28:11 - Debug: Added to available: Hakurei Reimu
+2025-05-18 23:28:11 - Debug: Added to available: Hatsune Miku
+2025-05-18 23:28:11 - Debug: Added to available: Hoshimi Miyabi
+2025-05-18 23:28:11 - Debug: Added to available: Kafka
+2025-05-18 23:28:11 - Debug: Added to available: Kasane Teto
+2025-05-18 23:28:11 - Debug: Added to available: Lingsha
+2025-05-18 23:28:11 - Debug: Added to available: Lotus
+2025-05-18 23:28:11 - Debug: Added to available: Luna Vow
+2025-05-18 23:28:11 - Debug: Added to available: Mita
+2025-05-18 23:28:11 - Debug: Added to available: Narmaya
+2025-05-18 23:28:11 - Debug: Added to available: Qingyi
+2025-05-18 23:28:11 - Debug: Added to available: Robin
+2025-05-18 23:28:11 - Debug: Added to available: Shorekeeper
+2025-05-18 23:28:11 - Debug: Added to available: Silver Wolf
+2025-05-18 23:28:11 - Debug: Added to available: Sparkle
+2025-05-18 23:28:11 - Debug: Added to available: Takanashi Hoshino
+2025-05-18 23:28:11 - Debug: Added to available: Tsukiyuki Miyako
+2025-05-18 23:28:11 - Debug: Selected scheme: Silver Wolf
+2025-05-18 23:28:11 - RegistryHelper: Beginning batch registry update
+2025-05-18 23:28:11 - RegistryHelper: Registry key opened successfully
+2025-05-18 23:28:11 - RegistryHelper: Registry key closed, 17 values written
+2025-05-18 23:28:11 - RegistryHelper: Set scheme name to Silver Wolf
+2025-05-18 23:28:11 - RegistryHelper: SystemParametersInfo result: 0
+2025-05-18 23:28:11 - Changed cursor scheme to: Silver Wolf
+2025-05-18 23:28:11 - Debug: Starting cursor change. Current scheme: Silver Wolf
+2025-05-18 23:28:11 - Debug: Added to available: Angelina
+2025-05-18 23:28:11 - Debug: Added to available: Camellya
+2025-05-18 23:28:11 - Debug: Added to available: Carlotta
+2025-05-18 23:28:11 - Debug: Added to available: Dusk
+2025-05-18 23:28:11 - Debug: Added to available: Elysia
+2025-05-18 23:28:11 - Debug: Added to available: Firefly
+2025-05-18 23:28:11 - Debug: Added to available: Fu Xuan
+2025-05-18 23:28:11 - Debug: Added to available: Furina
+2025-05-18 23:28:11 - Debug: Added to available: Hakurei Reimu
+2025-05-18 23:28:11 - Debug: Added to available: Hatsune Miku
+2025-05-18 23:28:11 - Debug: Added to available: Hoshimi Miyabi
+2025-05-18 23:28:11 - Debug: Added to available: Kafka
+2025-05-18 23:28:11 - Debug: Added to available: Kasane Teto
+2025-05-18 23:28:11 - Debug: Added to available: Lingsha
+2025-05-18 23:28:11 - Debug: Added to available: Lotus
+2025-05-18 23:28:11 - Debug: Added to available: Luna Vow
+2025-05-18 23:28:11 - Debug: Added to available: Mita
+2025-05-18 23:28:11 - Debug: Added to available: Narmaya
+2025-05-18 23:28:11 - Debug: Added to available: Qingyi
+2025-05-18 23:28:11 - Debug: Added to available: Robin
+2025-05-18 23:28:11 - Debug: Added to available: Shorekeeper
+2025-05-18 23:28:11 - Debug: Added to available: Sparkle
+2025-05-18 23:28:11 - Debug: Added to available: Sunaookami Shiroko
+2025-05-18 23:28:11 - Debug: Added to available: Takanashi Hoshino
+2025-05-18 23:28:11 - Debug: Added to available: Tsukiyuki Miyako
+2025-05-18 23:28:12 - Debug: Selected scheme: Robin
+2025-05-18 23:28:12 - RegistryHelper: Beginning batch registry update
+2025-05-18 23:28:12 - RegistryHelper: Registry key opened successfully
+2025-05-18 23:28:12 - RegistryHelper: Registry key closed, 17 values written
+2025-05-18 23:28:12 - RegistryHelper: Set scheme name to Robin
+2025-05-18 23:28:12 - RegistryHelper: SystemParametersInfo result: 0
+2025-05-18 23:28:12 - Changed cursor scheme to: Robin
+2025-05-18 23:28:12 - Debug: Starting cursor change. Current scheme: Robin
+2025-05-18 23:28:12 - Debug: Added to available: Angelina
+2025-05-18 23:28:12 - Debug: Added to available: Camellya
+2025-05-18 23:28:12 - Debug: Added to available: Carlotta
+2025-05-18 23:28:12 - Debug: Added to available: Dusk
+2025-05-18 23:28:12 - Debug: Added to available: Elysia
+2025-05-18 23:28:12 - Debug: Added to available: Firefly
+2025-05-18 23:28:12 - Debug: Added to available: Fu Xuan
+2025-05-18 23:28:12 - Debug: Added to available: Furina
+2025-05-18 23:28:12 - Debug: Added to available: Hakurei Reimu
+2025-05-18 23:28:12 - Debug: Added to available: Hatsune Miku
+2025-05-18 23:28:12 - Debug: Added to available: Hoshimi Miyabi
+2025-05-18 23:28:12 - Debug: Added to available: Kafka
+2025-05-18 23:28:12 - Debug: Added to available: Kasane Teto
+2025-05-18 23:28:12 - Debug: Added to available: Lingsha
+2025-05-18 23:28:12 - Debug: Added to available: Lotus
+2025-05-18 23:28:12 - Debug: Added to available: Luna Vow
+2025-05-18 23:28:12 - Debug: Added to available: Mita
+2025-05-18 23:28:12 - Debug: Added to available: Narmaya
+2025-05-18 23:28:12 - Debug: Added to available: Qingyi
+2025-05-18 23:28:12 - Debug: Added to available: Shorekeeper
+2025-05-18 23:28:12 - Debug: Added to available: Silver Wolf
+2025-05-18 23:28:12 - Debug: Added to available: Sparkle
+2025-05-18 23:28:12 - Debug: Added to available: Sunaookami Shiroko
+2025-05-18 23:28:12 - Debug: Added to available: Takanashi Hoshino
+2025-05-18 23:28:12 - Debug: Added to available: Tsukiyuki Miyako
+2025-05-18 23:28:12 - Debug: Selected scheme: Kasane Teto
+2025-05-18 23:28:12 - RegistryHelper: Beginning batch registry update
+2025-05-18 23:28:12 - RegistryHelper: Registry key opened successfully
+2025-05-18 23:28:12 - RegistryHelper: Registry key closed, 17 values written
+2025-05-18 23:28:12 - RegistryHelper: Set scheme name to Kasane Teto
+2025-05-18 23:28:12 - RegistryHelper: SystemParametersInfo result: 0
+2025-05-18 23:28:12 - Changed cursor scheme to: Kasane Teto
+2025-05-18 23:28:12 - Debug: Starting cursor change. Current scheme: Kasane Teto
+2025-05-18 23:28:12 - Debug: Added to available: Angelina
+2025-05-18 23:28:12 - Debug: Added to available: Camellya
+2025-05-18 23:28:12 - Debug: Added to available: Carlotta
+2025-05-18 23:28:12 - Debug: Added to available: Dusk
+2025-05-18 23:28:12 - Debug: Added to available: Elysia
+2025-05-18 23:28:12 - Debug: Added to available: Firefly
+2025-05-18 23:28:12 - Debug: Added to available: Fu Xuan
+2025-05-18 23:28:12 - Debug: Added to available: Furina
+2025-05-18 23:28:12 - Debug: Added to available: Hakurei Reimu
+2025-05-18 23:28:12 - Debug: Added to available: Hatsune Miku
+2025-05-18 23:28:12 - Debug: Added to available: Hoshimi Miyabi
+2025-05-18 23:28:12 - Debug: Added to available: Kafka
+2025-05-18 23:28:12 - Debug: Added to available: Lingsha
+2025-05-18 23:28:12 - Debug: Added to available: Lotus
+2025-05-18 23:28:12 - Debug: Added to available: Luna Vow
+2025-05-18 23:28:12 - Debug: Added to available: Mita
+2025-05-18 23:28:12 - Debug: Added to available: Narmaya
+2025-05-18 23:28:12 - Debug: Added to available: Qingyi
+2025-05-18 23:28:12 - Debug: Added to available: Robin
+2025-05-18 23:28:12 - Debug: Added to available: Shorekeeper
+2025-05-18 23:28:12 - Debug: Added to available: Silver Wolf
+2025-05-18 23:28:12 - Debug: Added to available: Sparkle
+2025-05-18 23:28:12 - Debug: Added to available: Sunaookami Shiroko
+2025-05-18 23:28:12 - Debug: Added to available: Takanashi Hoshino
+2025-05-18 23:28:12 - Debug: Added to available: Tsukiyuki Miyako
+2025-05-18 23:28:12 - Debug: Selected scheme: Furina
+2025-05-18 23:28:12 - RegistryHelper: Beginning batch registry update
+2025-05-18 23:28:12 - RegistryHelper: Registry key opened successfully
+2025-05-18 23:28:12 - RegistryHelper: Registry key closed, 17 values written
+2025-05-18 23:28:12 - RegistryHelper: Set scheme name to Furina
+2025-05-18 23:28:12 - RegistryHelper: SystemParametersInfo result: 0
+2025-05-18 23:28:12 - Changed cursor scheme to: Furina
+2025-05-18 23:28:13 - Debug: Starting cursor change. Current scheme: Furina
+2025-05-18 23:28:13 - Debug: Added to available: Angelina
+2025-05-18 23:28:13 - Debug: Added to available: Camellya
+2025-05-18 23:28:13 - Debug: Added to available: Carlotta
+2025-05-18 23:28:13 - Debug: Added to available: Dusk
+2025-05-18 23:28:13 - Debug: Added to available: Elysia
+2025-05-18 23:28:13 - Debug: Added to available: Firefly
+2025-05-18 23:28:13 - Debug: Added to available: Fu Xuan
+2025-05-18 23:28:13 - Debug: Added to available: Hakurei Reimu
+2025-05-18 23:28:13 - Debug: Added to available: Hatsune Miku
+2025-05-18 23:28:13 - Debug: Added to available: Hoshimi Miyabi
+2025-05-18 23:28:13 - Debug: Added to available: Kafka
+2025-05-18 23:28:13 - Debug: Added to available: Kasane Teto
+2025-05-18 23:28:13 - Debug: Added to available: Lingsha
+2025-05-18 23:28:13 - Debug: Added to available: Lotus
+2025-05-18 23:28:13 - Debug: Added to available: Luna Vow
+2025-05-18 23:28:13 - Debug: Added to available: Mita
+2025-05-18 23:28:13 - Debug: Added to available: Narmaya
+2025-05-18 23:28:13 - Debug: Added to available: Qingyi
+2025-05-18 23:28:13 - Debug: Added to available: Robin
+2025-05-18 23:28:13 - Debug: Added to available: Shorekeeper
+2025-05-18 23:28:13 - Debug: Added to available: Silver Wolf
+2025-05-18 23:28:13 - Debug: Added to available: Sparkle
+2025-05-18 23:28:13 - Debug: Added to available: Sunaookami Shiroko
+2025-05-18 23:28:13 - Debug: Added to available: Takanashi Hoshino
+2025-05-18 23:28:13 - Debug: Added to available: Tsukiyuki Miyako
+2025-05-18 23:28:13 - Debug: Selected scheme: Carlotta
+2025-05-18 23:28:13 - RegistryHelper: Beginning batch registry update
+2025-05-18 23:28:13 - RegistryHelper: Registry key opened successfully
+2025-05-18 23:28:13 - RegistryHelper: Registry key closed, 17 values written
+2025-05-18 23:28:13 - RegistryHelper: Set scheme name to Carlotta
+2025-05-18 23:28:13 - RegistryHelper: SystemParametersInfo result: 0
+2025-05-18 23:28:13 - Changed cursor scheme to: Carlotta
+2025-05-18 23:28:13 - Failed to change cursor scheme after 10 attempts
+2025-05-18 23:28:14 - Debug: Starting cursor change. Current scheme: Carlotta
+2025-05-18 23:28:14 - Debug: Added to available: Angelina
+2025-05-18 23:28:14 - Debug: Added to available: Camellya
+2025-05-18 23:28:14 - Debug: Added to available: Dusk
+2025-05-18 23:28:14 - Debug: Added to available: Elysia
+2025-05-18 23:28:14 - Debug: Added to available: Firefly
+2025-05-18 23:28:14 - Debug: Added to available: Fu Xuan
+2025-05-18 23:28:14 - Debug: Added to available: Furina
+2025-05-18 23:28:14 - Debug: Added to available: Hakurei Reimu
+2025-05-18 23:28:14 - Debug: Added to available: Hatsune Miku
+2025-05-18 23:28:14 - Debug: Added to available: Hoshimi Miyabi
+2025-05-18 23:28:14 - Debug: Added to available: Kafka
+2025-05-18 23:28:14 - Debug: Added to available: Kasane Teto
+2025-05-18 23:28:14 - Debug: Added to available: Lingsha
+2025-05-18 23:28:14 - Debug: Added to available: Lotus
+2025-05-18 23:28:14 - Debug: Added to available: Luna Vow
+2025-05-18 23:28:14 - Debug: Added to available: Mita
+2025-05-18 23:28:14 - Debug: Added to available: Narmaya
+2025-05-18 23:28:14 - Debug: Added to available: Qingyi
+2025-05-18 23:28:14 - Debug: Added to available: Robin
+2025-05-18 23:28:14 - Debug: Added to available: Shorekeeper
+2025-05-18 23:28:14 - Debug: Added to available: Silver Wolf
+2025-05-18 23:28:14 - Debug: Added to available: Sparkle
+2025-05-18 23:28:14 - Debug: Added to available: Sunaookami Shiroko
+2025-05-18 23:28:14 - Debug: Added to available: Takanashi Hoshino
+2025-05-18 23:28:14 - Debug: Added to available: Tsukiyuki Miyako
+2025-05-18 23:28:14 - Debug: Selected scheme: Sunaookami Shiroko
+2025-05-18 23:28:14 - RegistryHelper: Beginning batch registry update
+2025-05-18 23:28:14 - RegistryHelper: Registry key opened successfully
+2025-05-18 23:28:14 - RegistryHelper: Registry key closed, 17 values written
+2025-05-18 23:28:14 - RegistryHelper: Set scheme name to Sunaookami Shiroko
+2025-05-18 23:28:14 - RegistryHelper: SystemParametersInfo result: 0
+2025-05-18 23:28:14 - Changed cursor scheme to: Sunaookami Shiroko
+2025-05-18 23:28:15 - Debug: Starting cursor change. Current scheme: Sunaookami Shiroko
+2025-05-18 23:28:15 - Debug: Added to available: Angelina
+2025-05-18 23:28:15 - Debug: Added to available: Camellya
+2025-05-18 23:28:15 - Debug: Added to available: Carlotta
+2025-05-18 23:28:15 - Debug: Added to available: Dusk
+2025-05-18 23:28:15 - Debug: Added to available: Elysia
+2025-05-18 23:28:15 - Debug: Added to available: Firefly
+2025-05-18 23:28:15 - Debug: Added to available: Fu Xuan
+2025-05-18 23:28:15 - Debug: Added to available: Furina
+2025-05-18 23:28:15 - Debug: Added to available: Hakurei Reimu
+2025-05-18 23:28:15 - Debug: Added to available: Hatsune Miku
+2025-05-18 23:28:15 - Debug: Added to available: Hoshimi Miyabi
+2025-05-18 23:28:15 - Debug: Added to available: Kafka
+2025-05-18 23:28:15 - Debug: Added to available: Kasane Teto
+2025-05-18 23:28:15 - Debug: Added to available: Lingsha
+2025-05-18 23:28:15 - Debug: Added to available: Lotus
+2025-05-18 23:28:15 - Debug: Added to available: Luna Vow
+2025-05-18 23:28:15 - Debug: Added to available: Mita
+2025-05-18 23:28:15 - Debug: Added to available: Narmaya
+2025-05-18 23:28:15 - Debug: Added to available: Qingyi
+2025-05-18 23:28:15 - Debug: Added to available: Robin
+2025-05-18 23:28:15 - Debug: Added to available: Shorekeeper
+2025-05-18 23:28:15 - Debug: Added to available: Silver Wolf
+2025-05-18 23:28:15 - Debug: Added to available: Sparkle
+2025-05-18 23:28:15 - Debug: Added to available: Takanashi Hoshino
+2025-05-18 23:28:15 - Debug: Added to available: Tsukiyuki Miyako
+2025-05-18 23:28:15 - Debug: Selected scheme: Elysia
+2025-05-18 23:28:15 - RegistryHelper: Beginning batch registry update
+2025-05-18 23:28:15 - RegistryHelper: Registry key opened successfully
+2025-05-18 23:28:15 - RegistryHelper: Registry key closed, 17 values written
+2025-05-18 23:28:15 - RegistryHelper: Set scheme name to Elysia
+2025-05-18 23:28:15 - RegistryHelper: SystemParametersInfo result: 0
+2025-05-18 23:28:15 - Changed cursor scheme to: Elysia
+2025-05-18 23:28:18 - Debug: Added 26 schemes to listbox
+2025-05-18 23:28:18 - Updating preview for scheme: Elysia
+2025-05-18 23:28:20 - Updating preview for scheme: Camellya
+2025-05-18 23:28:20 - Updating preview for scheme: Dusk
+2025-05-18 23:28:20 - Updating preview for scheme: Firefly
+2025-05-18 23:28:21 - Debug: Starting cursor change. Current scheme: Elysia
+2025-05-18 23:28:21 - Debug: Added to available: Angelina
+2025-05-18 23:28:21 - Debug: Added to available: Camellya
+2025-05-18 23:28:21 - Debug: Added to available: Carlotta
+2025-05-18 23:28:21 - Debug: Added to available: Dusk
+2025-05-18 23:28:22 - Debug: Added to available: Firefly
+2025-05-18 23:28:22 - Debug: Added to available: Fu Xuan
+2025-05-18 23:28:22 - Debug: Added to available: Furina
+2025-05-18 23:28:22 - Debug: Added to available: Hakurei Reimu
+2025-05-18 23:28:22 - Debug: Added to available: Hatsune Miku
+2025-05-18 23:28:22 - Debug: Added to available: Hoshimi Miyabi
+2025-05-18 23:28:22 - Debug: Added to available: Kafka
+2025-05-18 23:28:22 - Debug: Added to available: Kasane Teto
+2025-05-18 23:28:22 - Debug: Added to available: Lingsha
+2025-05-18 23:28:22 - Debug: Added to available: Lotus
+2025-05-18 23:28:22 - Debug: Added to available: Luna Vow
+2025-05-18 23:28:22 - Debug: Added to available: Mita
+2025-05-18 23:28:22 - Debug: Added to available: Narmaya
+2025-05-18 23:28:22 - Debug: Added to available: Qingyi
+2025-05-18 23:28:22 - Debug: Added to available: Robin
+2025-05-18 23:28:22 - Debug: Added to available: Shorekeeper
+2025-05-18 23:28:22 - Debug: Added to available: Silver Wolf
+2025-05-18 23:28:22 - Debug: Added to available: Sparkle
+2025-05-18 23:28:22 - Debug: Added to available: Sunaookami Shiroko
+2025-05-18 23:28:22 - Debug: Added to available: Takanashi Hoshino
+2025-05-18 23:28:22 - Debug: Added to available: Tsukiyuki Miyako
+2025-05-18 23:28:22 - Debug: Selected scheme: Lingsha
+2025-05-18 23:28:22 - RegistryHelper: Beginning batch registry update
+2025-05-18 23:28:22 - RegistryHelper: Registry key opened successfully
+2025-05-18 23:28:22 - RegistryHelper: Registry key closed, 17 values written
+2025-05-18 23:28:22 - RegistryHelper: Set scheme name to Lingsha
+2025-05-18 23:28:22 - RegistryHelper: SystemParametersInfo result: 0
+2025-05-18 23:28:22 - Changed cursor scheme to: Lingsha
+2025-05-18 23:28:25 - Debug: Starting cursor change. Current scheme: Lingsha
+2025-05-18 23:28:25 - Debug: Added to available: Angelina
+2025-05-18 23:28:25 - Debug: Added to available: Camellya
+2025-05-18 23:28:25 - Debug: Added to available: Carlotta
+2025-05-18 23:28:25 - Debug: Added to available: Dusk
+2025-05-18 23:28:25 - Debug: Added to available: Elysia
+2025-05-18 23:28:25 - Debug: Added to available: Firefly
+2025-05-18 23:28:25 - Debug: Added to available: Fu Xuan
+2025-05-18 23:28:25 - Debug: Added to available: Furina
+2025-05-18 23:28:25 - Debug: Added to available: Hakurei Reimu
+2025-05-18 23:28:25 - Debug: Added to available: Hatsune Miku
+2025-05-18 23:28:25 - Debug: Added to available: Hoshimi Miyabi
+2025-05-18 23:28:25 - Debug: Added to available: Kafka
+2025-05-18 23:28:25 - Debug: Added to available: Kasane Teto
+2025-05-18 23:28:25 - Debug: Added to available: Lotus
+2025-05-18 23:28:25 - Debug: Added to available: Luna Vow
+2025-05-18 23:28:25 - Debug: Added to available: Mita
+2025-05-18 23:28:25 - Debug: Added to available: Narmaya
+2025-05-18 23:28:25 - Debug: Added to available: Qingyi
+2025-05-18 23:28:25 - Debug: Added to available: Robin
+2025-05-18 23:28:25 - Debug: Added to available: Shorekeeper
+2025-05-18 23:28:25 - Debug: Added to available: Silver Wolf
+2025-05-18 23:28:25 - Debug: Added to available: Sparkle
+2025-05-18 23:28:25 - Debug: Added to available: Sunaookami Shiroko
+2025-05-18 23:28:25 - Debug: Added to available: Takanashi Hoshino
+2025-05-18 23:28:25 - Debug: Added to available: Tsukiyuki Miyako
+2025-05-18 23:28:25 - Debug: Selected scheme: Sparkle
+2025-05-18 23:28:25 - RegistryHelper: Beginning batch registry update
+2025-05-18 23:28:25 - RegistryHelper: Registry key opened successfully
+2025-05-18 23:28:25 - RegistryHelper: Registry key closed, 17 values written
+2025-05-18 23:28:25 - RegistryHelper: Set scheme name to Sparkle
+2025-05-18 23:28:25 - RegistryHelper: SystemParametersInfo result: 0
+2025-05-18 23:28:25 - Changed cursor scheme to: Sparkle
