@@ -732,7 +732,13 @@ class UI {
         global app
         if (app.hotkeyManager) {
             this.logger.Log("UI: Unregistering all existing hotkeys before config update")
-            app.hotkeyManager.UnregisterAllHotkeys()
+            ; app.hotkeyManager.UnregisterAllHotkeys()
+        }
+
+        if (!app.hotkeyManager) {
+            this.logger.Log("UI: ERROR - app.hotkeyManager not found!")
+            MsgBox("Error: Hotkey manager not available. Hotkeys may not work.", "Error", "Icon!")
+            return
         }
 
         ; Update configuration
@@ -746,15 +752,10 @@ class UI {
         this.logger.Log("  - pauseHotkey: " (this.config.pauseHotkey ? this.config.pauseHotkey : "none"))
         this.logger.Log("  - settingsHotkey: " (this.config.settingsHotkey ? this.config.settingsHotkey : "none"))
 
-        ; Re-register hotkeys with the system after config update
+        ; Re-register hotkeys with updated configuration
         try {
-            if (app.hotkeyManager) {
-                this.logger.Log("UI: Re-registering hotkeys through global app.hotkeyManager")
-                app.hotkeyManager.RegisterHotkeys()
-            } else {
-                this.logger.Log("UI: ERROR - app.hotkeyManager not found!")
-                MsgBox("Error: Hotkey manager not available. Hotkeys may not work.", "Error", "Icon!")
-            }
+            this.logger.Log("UI: Re-registering hotkeys with new configuration")
+            app.hotkeyManager.RegisterHotkeys()
         } catch as err {
             this.logger.Log("UI: Exception when re-registering hotkeys: " err.Message)
             MsgBox("Error re-registering hotkeys: " err.Message, "Error", "Icon!")
@@ -936,7 +937,7 @@ class UI {
             return
         }
 
-        ; Check if it's a modifier key and skip processing
+        ; Skip modifier-only keys to prevent infinite loops
         if (keyName ~= "i)^(Control|Alt|Shift|LWin|RWin)$") {
             return
         }
@@ -955,18 +956,15 @@ class UI {
         ; Build hotkey string
         hotkeyStr := modifiers . keyName
 
-        ; Validate the hotkey
-        if (this.ValidateHotkey(hotkeyStr)) {
-            ; Update the control
-            this.currentCaptureControl.Value := hotkeyStr
-            this.logger.Log("Captured valid hotkey: " hotkeyStr)
-        } else {
-            this.logger.Log("Invalid hotkey combination: " hotkeyStr)
-            this.currentCaptureControl.Value := ""
-        }
+        ; Update the control immediately to stop further processing
+        this.currentCaptureControl.Value := hotkeyStr
+        this.logger.Log("Captured hotkey: " hotkeyStr)
 
-        ; End capture
+        ; End capture IMMEDIATELY to prevent hook conflicts
         this.EndHotkeyCapture()
+
+        ; Block the key from being processed further
+        return 1
     }
 
     /**
@@ -1006,6 +1004,8 @@ class UI {
 
         ; Reset capture state
         this.isCapturingHotkey := false
+        this.currentCaptureControl := ""
+        this.captureTarget := ""
         this.logger.Log("Ended hotkey capture")
     }
 

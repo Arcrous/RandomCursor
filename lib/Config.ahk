@@ -23,7 +23,7 @@ class Config {
         this.logger.Log("Config: Initializing configuration")
 
         ; TODO: In the future, we could add loading from an INI file here
-        ; this.LoadFromFile()
+        this.LoadFromFile()
     }
 
     /**
@@ -64,8 +64,8 @@ class Config {
             ", Pause Hotkey=" this.pauseHotkey
             ", Settings Hotkey=" this.settingsHotkey)
 
-        ; TODO: In the future, we could add saving to an INI file here
-        ; this.SaveToFile()
+        ; Save settings to INI file
+        this.SaveToFile()
 
         return true
     }
@@ -97,16 +97,71 @@ class Config {
     }
 
     /**
-     * Future method for loading settings from file
+     * Load settings from INI file
      */
     LoadFromFile() {
-        ; TODO: Implement loading from INI file
+        iniPath := A_ScriptDir "\RandomCursor.ini"
+
+        if (!FileExist(iniPath)) {
+            this.logger.Log("Config: No INI file found, using defaults")
+            return
+        }
+
+        try {
+            ; Load general settings
+            this.changeInterval := IniRead(iniPath, "General", "ChangeInterval", this.changeInterval)
+            this.enableNotifications := IniRead(iniPath, "General", "EnableNotifications", this.enableNotifications)
+            this.logChanges := IniRead(iniPath, "General", "LogChanges", this.logChanges)
+
+            ; Load hotkeys
+            this.changeHotkey := IniRead(iniPath, "Hotkeys", "ChangeHotkey", this.changeHotkey)
+            this.pauseHotkey := IniRead(iniPath, "Hotkeys", "PauseHotkey", this.pauseHotkey)
+            this.settingsHotkey := IniRead(iniPath, "Hotkeys", "SettingsHotkey", this.settingsHotkey)
+
+            ; Load excluded schemes
+            excludedList := IniRead(iniPath, "General", "ExcludedSchemes", "")
+            if (excludedList != "") {
+                this.excludeSchemes := StrSplit(excludedList, "|")
+            }
+
+            this.logger.Log("Config: Settings loaded from INI file")
+            this.logger.Log("Config: Interval=" this.changeInterval ", Notifications=" this.enableNotifications)
+
+        } catch as e {
+            this.logger.Log("Config: Error loading INI file: " e.Message)
+        }
     }
 
     /**
-     * Future method for saving settings to file
+     * Save settings to INI file
      */
     SaveToFile() {
-        ; TODO: Implement saving to INI file
+        iniPath := A_ScriptDir "\RandomCursor.ini"
+
+        try {
+            ; Save general settings
+            IniWrite(this.changeInterval, iniPath, "General", "ChangeInterval")
+            IniWrite(this.enableNotifications, iniPath, "General", "EnableNotifications")
+            IniWrite(this.logChanges, iniPath, "General", "LogChanges")
+
+            ; Save excluded schemes as pipe-separated string
+            excludedStr := ""
+            for index, scheme in this.excludeSchemes {
+                if (index > 1)
+                    excludedStr .= "|"
+                excludedStr .= scheme
+            }
+            IniWrite(excludedStr, iniPath, "General", "ExcludedSchemes")
+
+            ; Save hotkeys
+            IniWrite(this.changeHotkey, iniPath, "Hotkeys", "ChangeHotkey")
+            IniWrite(this.pauseHotkey, iniPath, "Hotkeys", "PauseHotkey")
+            IniWrite(this.settingsHotkey, iniPath, "Hotkeys", "SettingsHotkey")
+
+            this.logger.Log("Config: Settings saved to INI file")
+
+        } catch as e {
+            this.logger.Log("Config: Error saving INI file: " e.Message)
+        }
     }
 }
