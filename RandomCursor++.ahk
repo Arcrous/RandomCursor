@@ -7,6 +7,8 @@
 #Include %A_ScriptDir%\lib\Logger.ahk
 #Include %A_ScriptDir%\lib\HotkeyManager.ahk  ; Add the new HotkeyManager include
 
+TraySetIcon("cursor512.png")
+
 /**
  * RandomCursor++ - A script to automatically change cursor schemes
  * Main script file that initializes the application
